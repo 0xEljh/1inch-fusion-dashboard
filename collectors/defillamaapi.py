@@ -17,7 +17,6 @@ class DefillamaAPI:
         token_addresses = ",".join(
             [f"ethereum:{token_address}" for token_address in token_addresses]
         )
-        print(token_addresses)
         url = f"https://coins.llama.fi/prices/historical/{timestamp}/{token_addresses}"
         response = requests.get(url, headers=self.headers)
         # rename the dictionary keys to remove the ethereum: prefix
