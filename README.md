@@ -1,8 +1,8 @@
 # 1inch-fusion-dashboard
 
-This dashboard is for the 1inch Fusion swap, done for ETHTokyo 2023.
+This dashboard serves analytics on resolver behavior on 1inch's Fusion swap platform. Built for ETHTokyo 2023.
 
-## How to use
+## Installation
 
 1. Clone the repo
 1. Install dependencies:
