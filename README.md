@@ -6,10 +6,10 @@ This dashboard is for the 1inch Fusion swap, done for ETHTokyo 2023.
 
 1. Clone the repo
 1. Install dependencies:
-    Python 3.6 or higher
-    pandas
-    requests
-    pip install .
+  - pandas
+  - requests
+  - `pip install .`
+  - jupyter notebook support
 
 
 ## How it works
